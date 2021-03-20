@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEM</title>
+  </head>
+  <body>
+    <header class="banner">
+      <h1 class="banner__tittle banner__tittle--big">SLOGAN DUZY</h1>
+      <h2 class="banner__tittle banner__title--small">Slogan mały</h2>
+      <button class="btn banner-btn">Wejdz</button>
+    </header>
+    <nav class="navigation">
+      <div class="logo">
+        <img class="logo__img" src="" alt="" />
+        <span class="logo__name">Nazwa Firmy</span>
+      </div>
+      <ul class="navigation__list">
+        <li class="navigation__item menu__item--is-open">
+          <a class="navigation__link" href="#">File</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Edit</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">View</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Help</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="articles">
+      <form class="search" action="">
+        <input type="text" class="seatch__input" />
+        <button class="btn search">Szukaj</button>
+      </form>
+      <article class="article">
+        <h1 class="article__title">TYTUL ARTYKULU</h1>
+        <div class="article__info">
+          <span class="article__publication-date">DATA publikacji</span>
+          <span class="article__publication-author">Autor</span>
+          <p class="article__content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Exercitationem porro amet saepe perferendis quisquam excepturi
+            placeat debitis quam labore suscipit nesciunt vel, dignissimos
+            impedit earum nulla ullam dolor eveniet error?
+          </p>
+          <h2 class="article__subtitle">Srodtytul</h2>
+          <p class="article__content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+            tempora minus maiores molestias eveniet dicta distinctio obcaecati
+            laborum quo dolorum?
+          </p>
+          <button class="btn articles__btn">Czytaj dalej</button>
+        </div>
+      </article>
+    </section>
+    <footer class="footer">
+      <p class="footer__copyright-info">Copyright</p>
+      <address class="footer__adress-info">Adress</address>
+    </footer>
+  </body>
+</html>
